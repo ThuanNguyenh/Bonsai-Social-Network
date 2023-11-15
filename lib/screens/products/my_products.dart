@@ -157,7 +157,7 @@ class _BlogsState extends State<Blogs> {
                                       child: Container(
                                         margin: const EdgeInsets.only(top: 10, bottom: 5),
                                         child: Text(
-                                          snapshot.child('title').value.toString().length > 35
+                                          snapshot.child('title').value.toString().length > 47
                                               ? '${snapshot.child('title').value.toString().substring(0,47)}...'
                                               : snapshot.child('title').value.toString(),
                                           style: const TextStyle(
@@ -285,7 +285,7 @@ class _BlogsState extends State<Blogs> {
                                       child: Container(
                                         margin: const EdgeInsets.only(top: 10, bottom: 5),
                                         child: Text(
-                                          snapshot.child('title').value.toString().length > 35
+                                          snapshot.child('title').value.toString().length > 47
                                               ? '${snapshot.child('title').value.toString().substring(0,47)}...'
                                               : snapshot.child('title').value.toString(),
                                           style: const TextStyle(
