@@ -122,7 +122,7 @@ class _TypeProductsState extends State<TypeProducts> {
 
                   children: [
                     Text(
-                      productData['title'].length > 50
+                      productData['title'].length > 60
                           ? '${productData['title'].substring(0, 60)}...'
                           : productData['title'],
                       style: GoogleFonts.mPlusRounded1c(
