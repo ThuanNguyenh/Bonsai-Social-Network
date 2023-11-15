@@ -77,6 +77,8 @@ class _Login extends State<Login> {
         Utils().toastMessage("Mật khẩu không đúng!");
       } else if (e.code == 'user-not-found') {
         Utils().toastMessage('Tài khoản không tồn tại!');
+      } else if(e.code == 'invalid-email'){
+        Utils().toastMessage('Email không đúng!');
       } else {
         Utils().toastMessage('Lỗi đăng nhập!');
       }
